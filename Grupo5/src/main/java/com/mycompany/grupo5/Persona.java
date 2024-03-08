@@ -30,10 +30,7 @@ public abstract class  Persona {
     public String getEdad(){
         return this.Nombre;
     }
-    //Metodo para establecer color
-    public void establecerColor(){
-        System.out.println("Color: " + Color);
-    }
+   
     //Metodo Abstracto de dibujar
     abstract String Profesion();
     
